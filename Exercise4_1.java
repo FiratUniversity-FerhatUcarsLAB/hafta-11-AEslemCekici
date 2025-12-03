@@ -1,14 +1,20 @@
-public class Exercise4_1 {
-
-    public static void printAmerican(String day, int date, String month, int year) {
-        // TODO
-    }
-
-    public static void printEuropean(String day, int date, String month, int year) {
-        // TODO
-    }
-
+public class TarihYazdirma {
     public static void main(String[] args) {
-        // TODO: test methods
+        String gun = "Pazar";
+        String ay = "Ocak";
+        int tarih = 5;
+        int yil = 2014;
+
+        printAmerican(gun, tarih, ay, yil);
+
+        printEuropean(gun, tarih, ay, yil);
+    }
+public static void printAmerican(String gün, int tarih, String ay, int yil) {
+        System.out.println ("American:"+gün+ "," +ay+ "," +tarih+ "," +yil);
+}
+public static void printEuropean(String gün, int tarih, String ay, int yil) {
+        System.out.println("Avrupa:"+gün+ "," +ay+ "," +tarih+ "," +yil);
+
+
     }
 }
