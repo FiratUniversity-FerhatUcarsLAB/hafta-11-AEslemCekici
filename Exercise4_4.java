@@ -19,3 +19,8 @@ public class Exercise4_4 {
         // Cevaplarinizi yorum olarak ekleyin.
     }
 }
+
+/*
+Soru1: Kod çalışır, hata vermez ama herhangi bir çıktı da vermez.
+Soru2: Kod çalışmaz, hata verir
+*/
