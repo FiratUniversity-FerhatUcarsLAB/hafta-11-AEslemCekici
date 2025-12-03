@@ -25,3 +25,7 @@ public class Exercise4_5 {
         System.out.println("any " + strangStrung + "more ");
     }
 }
+
+
+
+//Çıktı: fredfred!
